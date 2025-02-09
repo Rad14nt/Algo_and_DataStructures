@@ -2,7 +2,7 @@ package datastructures;
 
 import java.util.HashMap;
 
-public class DetailedHashMapExample {
+public class GDetailedHashMapExample {
     public static void main(String[] args) {
         // ============================================================
         // 1. Creating a HashMap

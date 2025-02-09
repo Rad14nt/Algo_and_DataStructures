@@ -3,7 +3,7 @@ package datastructures;
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class DetailedQueueExample {
+public class FDetailedQueueExample {
 
     public static void main(String[] args) {
         // ============================================================

@@ -2,7 +2,7 @@ package datastructures;
 
 import java.util.Arrays;
 
-public class DetailedArrayExample {
+public class ADetailedArrayExample {
 
     public static void main(String[] args) {
         // ============================================================
@@ -21,6 +21,9 @@ public class DetailedArrayExample {
 
         // Method 2: Declare and initialize in one line using an array literal.
         int[] moreNumbers = { 10, 20, 30, 40, 50 };
+        String[] someWords = { "10" , "5", "8"};
+
+
 
         // ============================================================
         // 2. Accessing and Iterating Through an Array
@@ -35,6 +38,19 @@ public class DetailedArrayExample {
         for (int i = 0; i < numbers.length; i++) {
             // Print the index and its corresponding value.
             System.out.println("Index " + i + ": " + numbers[i]);
+        }
+
+
+        System.out.println("printing through loo");
+        for (int i = 0 ; i <numbers.length; i++){
+            System.out.println("index of i: " + i + "\n Value of i : " + numbers[i]);
+        }
+
+
+        System.out.println("advanced for loop");
+
+        for (int num: numbers){
+            System.out.println(num);
         }
 
         // Iterating with an enhanced for loop (for-each loop):

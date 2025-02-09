@@ -141,7 +141,7 @@ class LinkedList {
 // -------------------------------
 // 5. Demonstration in the Main Class
 // -------------------------------
-public class DetailedLinkedListExample {
+public class DDetailedLinkedListExample {
     public static void main(String[] args) {
         // Create an instance of datastructures.LinkedList.
         LinkedList list = new LinkedList();

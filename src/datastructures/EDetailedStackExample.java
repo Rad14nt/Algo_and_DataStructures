@@ -3,7 +3,7 @@ package datastructures;
 import java.util.Deque;
 import java.util.ArrayDeque;
 
-public class DetailedStackExample {
+public class EDetailedStackExample {
 
     public static void main(String[] args) {
         // ============================================================

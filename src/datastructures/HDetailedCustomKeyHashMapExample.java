@@ -45,7 +45,7 @@ class Person {
 // ============================================================
 // 2. Using the Custom Key in a HashMap
 // ============================================================
-public class DetailedCustomKeyHashMapExample {
+public class HDetailedCustomKeyHashMapExample {
     public static void main(String[] args) {
         // Create a HashMap with datastructures.Person objects as keys and String values.
         // Here, the value represents the occupation of the person.

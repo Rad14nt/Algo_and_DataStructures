@@ -1,6 +1,6 @@
 package datastructures;
 
-public class DetailedStringExample {
+public class CDetailedStringExample {
 
     public static void main(String[] args) {
         // ============================================================
