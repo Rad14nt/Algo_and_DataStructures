@@ -33,7 +33,7 @@ class TreeNode {
 // 2. Define the BinaryTree operations.
 // ============================================================
 
-public class DetailedBinaryTreeExample {
+public class IDetailedBinaryTreeExample {
 
     /**
      * In-order traversal: Traverse the left subtree, visit the node, then traverse the right subtree.

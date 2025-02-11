@@ -47,12 +47,6 @@ public class ADetailedArrayExample {
         }
 
 
-        System.out.println("advanced for loop");
-
-        for (int num: numbers){
-            System.out.println(num);
-        }
-
         // Iterating with an enhanced for loop (for-each loop):
         System.out.println("\nIterating using an enhanced for loop:");
         for (int num : numbers) {
@@ -157,9 +151,9 @@ public class ADetailedArrayExample {
     // ============================================================
     // This method swaps elements from the beginning and end until the entire array is reversed.
     public static void reverseArray(int[] arr) {
-        int left = 0;                  // Start pointer at the beginning of the array.
-        int right = arr.length - 1;      // Start pointer at the end of the array.
-
+        int left = 0;                  // Start pointer at the beginning of the array. 0
+        int right = arr.length - 1;      // Start pointer at the end of the array.    4
+        // 0 1 2 3 4
         // Loop until the two pointers meet or cross.
         while (left < right) {
             // Swap the elements at indices 'left' and 'right'.
